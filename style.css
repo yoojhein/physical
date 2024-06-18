@@ -1,23 +1,23 @@
-* {
+*{
     box-sizing: border-box;
     position: relative;
-  }
-  
-  body {
+}
+
+body{
     margin: 0;
     padding: 0;
     font-family: "Noto Serif KR", serif;
-  }
-  
-  .main {
+}
+
+.main {
     min-height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
-  
-  .logo-holder {
+}
+
+.logo-holder{
     display: flex;
     justify-content: center;
     animation-name: rotate;
@@ -25,41 +25,46 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
-  }
-  .logo-holder img {
+
+}
+
+.logo-holder img{
     width: calc((100vw - 2rem) / 12 * 7);
-  }
-  
-  .contents {
+}
+
+.contents{
     max-width: 1100px;
     margin: 10vh auto;
     padding: 0 1rem;
     text-align: center;
-  }
-  .contents p {
+}
+
+.contents p {
     font-size: 1.56rem;
     line-height: 1.7em;
     padding-bottom: 0;
-  }
-  .contents p span {
-    font-family: "MonteCarlo", cursive;
+
+}
+
+.contents p span {
+    font-family: "MonteCarlo";
     font-size: 1.7em;
-  }
-  
-  .number {
+}
+
+.number{
     font-family: "Noto Serif KR", serif;
     font-size: 1.56em;
     color: black;
     padding: 0 1rem;
     margin: 10vh auto;
     text-decoration: none;
-  }
-  
-  @keyframes rotate {
+}
+
+@keyframes rotate{
     from {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
     to {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
+}
